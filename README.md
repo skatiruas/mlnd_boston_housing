@@ -1,6 +1,21 @@
 # Machine Learning Engineer Nanodegree
 # Model Evaluation and Validation
 ## Project: Predicting Boston Housing Prices
+**Tiago Ruas da Gama Cerqueira**
+
+### Keeping Versions according to Udacity Project
+To avoid updating the code in various places as mentioned in Install section I'm using pipenv
+locking needed versions like 0.17.1 scikit-learn. To use it with jupyter notebook:
+```bash
+pipenv install ipykernel
+pipenv shell
+```
+
+```bash
+#Inside shell
+python -m ipykernel install --user --name=my-virtualenv-name-given-on-shell
+jupyter notebook
+```
 
 ### Install
 
@@ -25,7 +40,7 @@ In a terminal or command window, navigate to the top-level project directory `bo
 
 ```bash
 ipython notebook boston_housing.ipynb
-```  
+```
 or
 ```bash
 jupyter notebook boston_housing.ipynb
